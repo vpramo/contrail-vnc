@@ -2,7 +2,7 @@
 <remote name="github" fetch="https://github.com/Juniper"/>
 <remote name="JioCloud" fetch="https://github.com/JioCloud"/>
 
-<default revision="refs/heads/master" remote="github"/>
+<default revision="R1.10" remote="github"/>
 
 <project name="contrail-build" remote="github" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
