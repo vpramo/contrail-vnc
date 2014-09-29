@@ -4,7 +4,7 @@
 
 <default revision="R1.10" remote="github"/>
 
-<project name="contrail-build" remote="github" path="tools/build">
+<project name="contrail-build" remote="JioCloud" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
 <project name="contrail-controller" remote="github" path="controller"/>
