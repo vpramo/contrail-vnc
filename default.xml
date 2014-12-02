@@ -8,7 +8,7 @@
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
 <project name="contrail-controller" remote="JioCloud" path="controller"/>
-<project name="contrail-vrouter" remote="github" path="vrouter"/>
+<project name="contrail-vrouter" remote="JioCloud" path="vrouter"/>
 <project name="contrail-third-party" remote="JioCloud" path="third_party"/>
 <project name="contrail-generateDS" remote="github" path="tools/generateds"/>
 <project name="contrail-sandesh" remote="JioCloud" path="tools/sandesh"/>
