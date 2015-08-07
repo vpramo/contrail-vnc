@@ -10,7 +10,7 @@
 
 <project name="contrail-controller" remote="jiocloud" path="controller"/>
 <project name="contrail-vrouter" remote="jiocloud" path="vrouter"/>
-<project name="contrail-third-party" remote="jiocloud" path="third_party"/>
+<project name="contrail-third-party" remote="vpramo" revision="R2.1" path="third_party"/>
 <project name="contrail-generateDS" remote="jiocloud" path="tools/generateds"/>
 <project name="contrail-sandesh" remote="jiocloud" path="tools/sandesh"/>
 <project name="contrail-third-party-packages" remote="vpramo" revision="docker_chagelog_fix" path="tools/third-party-packages"/>
