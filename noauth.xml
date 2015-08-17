@@ -14,7 +14,7 @@
 <project name="contrail-generateDS" remote="jiocloud" path="tools/generateds"/>
 <project name="contrail-sandesh" remote="jiocloud" path="tools/sandesh"/>
 <project name="contrail-third-party-packages" remote="vpramo" revision="docker_chagelog_fix" path="tools/third-party-packages"/>
-<project name="contrail-packages" revision="R2.1" remote="jiocloud" path="tools/packages">
+<project name="contrail-packages" revision="fix_nodejs_version" remote="vpramo" path="tools/packages">
   <copyfile src="packages.make" dest="packages.make"/>
 </project>
 <project name="contrail-nova-vif-driver" remote="jiocloud" path="openstack/nova_contrail_vif"/>
